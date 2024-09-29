@@ -17,12 +17,29 @@ You are encouraged to use piecewise-linear approximation to design your circuit.
 
 
 Design Rules
+
+
 Those who do not design according to the following rules will not be graded.
+
 ➢ LUT-based designs are not allowed.
+
+
 ➢ There should be a reset signal for the register.
+
+
 ➢ You are free to add pipeline registers.
+
+
 ➢ You can loosen your simulation timing first, (i.e., `define CYCLE XXXX in the tb.v), then shorten the clock period to find your critical path.
+
+
 ➢ Your design should be based on the standard cells in the lib.v. All logic operations in your design MUST consist of the standard cells instead of using the operands such as “+”, “-”, “&”, “|”, “>”, and “<”.
+
+
 ➢ Using “assign” to concatenate signals or specify constant values is allowed.
+
+
 ➢ Design your homework in the given “sigmoid.v” file. You are NOT ALLOWED to change the filename and the header of the top module (i.e. the module name and the I/O ports).
+
+
 ➢ If your design contains more than one module, don’t create a new file for them, just put those modules in “sigmoid.v.”
